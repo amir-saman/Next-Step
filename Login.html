@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="module" src="./src/login.js"></script>
+
+  <link rel="stylesheet" href="css/Login.css">
+</head>
+<body>
+<form>
+  <div class="imgcontainer">
+    <img src="img/Logo.png" alt="Logo" class="logo">
+  </div>
+
+  <div class="container">
+    <label>
+      <input type="checkbox" checked="checked" name="SAdmin"> Admin
+    </label>
+
+    <label>
+      <input type="checkbox" checked="checked" name="SStudent"> Student
+    </label>
+
+    <label>
+      <input type="checkbox" checked="checked" name="SOrganisation"> Organisation
+    </label><br>
+
+    <label></label>
+
+    <label for="uname"><b>Username</b></label>
+    <input type="text" id="loginUsername" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" id= "loginPass" placeholder="Enter Password" name="psw" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+
+    <button type="button" id="loginButton">Login</button>
+
+    <form action="/Register.html">
+      <buttonR type="submit" id="LRegButton" value="Register">Register</buttonR>
+      <script type="text/javascript">
+       document.getElementById("LRegButton").onclick = function() {
+        location.href = "Register.html";
+      }  
+      </script>
+      
+    </form>
+
+  </div>
+</form>
+
+<!--<form>
+  <div class="container">
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+</form>-->
+
+</body>
+</html>
