@@ -17,11 +17,12 @@ body {
 
 h1, h2, h3 {
   font-family: 'Copperplate', fantasy;
+  font-size: 10px;
   color: #2a2a2a;
 }
 
-p, input, li {
-  font-family: 'Copperplate' , fantasy;
+p,li {
+  font-family: 'Copperplate', fantasy;
   color: #BDBDBD;
 }
 
@@ -91,8 +92,9 @@ nav form {
 }
 
 input {
-  font-size: 1.6rem;
+  font-size: 20px;
   height: 32px;
+  width: 100%;
 }
 
 input[type="search"] {
@@ -105,6 +107,13 @@ input[type="submit"] {
   background: #333;
   border: 0;
   color: white;
+}
+
+.input[type="text"] {
+  flex: 1;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 90%;
 }
 
 /* || main layout */
@@ -157,9 +166,16 @@ footer {
 
 }
 
-.bottom {
+.bottomR {
   border-radius: 25px;
-  width: 98%;
+  width: 46%;
+  float: right;
+}
+
+.bottomL {
+  border-radius: 25px;
+  width: 46%;
+  float: left;
 }
 
 /* Clear floats after the columns */
@@ -167,5 +183,16 @@ footer {
   content: "";
   display: table;
   clear: both;
+}
+
+.formRight {
+  float: left;
+  width: 45%;
+}
+
+select{
+  width: 100%;
+  height: 50px;
+  float: left;
 }
 

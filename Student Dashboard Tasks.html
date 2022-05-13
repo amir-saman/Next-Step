@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Edit Profile</title>
+  <title>Tasks</title>
   <link rel="stylesheet" href="css/Dashboard%20Tasks.css">
   <script type = "module" src="./src/StudentDashboardTasks.js"></script>
 
@@ -44,17 +44,17 @@
     <div class="row">
       <div class="column left" style="background-color:darkgray;">
         <h2>Incomplete</h2>
-        <div id="SlistOfIncompleteTasks"></div>
+        <div style="font-size: 15px" id="SlistOfIncompleteTasks"></div>
       </div>
 
       <div class="column right" style="background-color:darkgray;">
         <h2>Complete</h2>
-        <div id="SlistOfCompleteTasks"></div>
+        <div style="font-size: 15px" id="SlistOfCompleteTasks"></div>
       </div>
 
       <div class="column middle" style="background-color:darkgray;">
         <h2>Progress</h2>
-        <div id="SlistOfProgressTasks"></div>
+        <div style="font-size: 15px" id="SlistOfProgressTasks"></div>
       </div>
 
       <div class="column bottomL" style="background-color:darkgray;">
@@ -77,9 +77,9 @@
           <label style="font-size:20px;" for="TDesc">Task Description:</label><br>
           <input type="text" id="STUpdateDesc" name="TDesc"><br>
 
-          <label for="status">Current Status:</label><br>
+          <label style="font-size:20px;" for="status">Current Status:</label><br>
 
-          <select name="status" id="SUpdateTaskStatus">
+          <select style="font-size:10px;" name="status" id="SUpdateTaskStatus">S
             <option value="Progress">In-Progress</option>
             <option value="Complete">Complete</option>
             <option value="Delete">Delete</option>
@@ -99,7 +99,7 @@
     <h2>Menu</h2>
 
     <ul>
-      <h3><a href="Student%20Dashboard.html">Projects</a></h3>
+      <h3><a href="Student%20Dashboard.html">Home</a></h3>
       <h3><a href="Student%20Dashboard%20Tasks.html">Tasks</a></h3>
     </ul>
   </aside>

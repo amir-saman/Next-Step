@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Edit Profile</title>
+  <title>Tasks</title>
   <link rel="stylesheet" href="css/Admin%20Dashboard%20Tasks.css">
   <script type = "module" src="./src/AdminDashboardTasks.js"></script>
 
@@ -42,28 +42,28 @@
     <div class="row">
       <div class="column left" style="background-color:darkgrey;">
         <h2>Incomplete</h2>
-        <div id="listOfIncompleteTasks"></div>
+        <div style="font-size: 15px;"  id="listOfIncompleteTasks"></div>
       </div>
 
       <div class="column right" style="background-color:darkgrey;">
         <h2>Complete</h2>
-        <div id="listOfCompleteTasks"></div>
+        <div style="font-size: 15px;" id="listOfCompleteTasks"></div>
       </div>
 
       <div class="column middle" style="background-color:darkgrey;">
         <h2>Progress</h2>
-        <div id="listOfProgressTasks"></div>
+        <div style="font-size: 15px;" id="listOfProgressTasks"></div>
       </div>
 
       <div class="column bottomL" style="background-color:#bbb;">
         <h2>Assign Task</h2>
         <form>
           <label style="font-size:20px;" for="Ptitle">Project Title:</label><br>
-          <input type="text" id="APtitle" name="ptitle"><br>
+          <input style="font-size: 20px" type="text" id="APtitle" name="ptitle"><br>
           <label style="font-size:20px;" for="Tmembers">Enter Members To Assign:</label><br>
-          <input type="text" id="ATmembers" name="tmembers"><br>
+          <input style="font-size: 20px" type="text" id="ATmembers" name="tmembers"><br>
           <label style="font-size:20px;" for="Tdescription"> Enter Task Details:</label><br>
-          <input type="text" id="ATdescription" name="tdescription">
+          <input style="font-size: 20px" type="text" id="ATdescription" name="tdescription">
         </form>
 
         <button type="button" id="AsubmitTask">Create task</button>

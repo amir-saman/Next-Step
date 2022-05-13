@@ -5,7 +5,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: navajowhite;
+  background-color: lightgray;
 }
 
 body {
@@ -16,12 +16,13 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Sonsie One', Helvetica;
+  font-family: 'Copperplate', fantasy;
+  font-size: 10px;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Copperplate', fantasy;
   color: #BDBDBD;
 }
 
@@ -33,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -49,13 +50,14 @@ p, li {
 /* || header layout */
 
 nav, article, aside, footer {
-  background-color: #B3E5FC;
+  background-color: lightgray;
   padding: 1%;
+  border-radius: 25px;
 }
 
 nav {
   height: 50px;
-  background-color: #B3E5FC;
+  background-color: lightgray;
   display: flex;
   margin-bottom: 10px;
 }
@@ -92,6 +94,7 @@ nav form {
 input {
   font-size: 1.6rem;
   height: 32px;
+  width: 100%;
 }
 
 input[type="search"] {
@@ -104,6 +107,13 @@ input[type="submit"] {
   background: #333;
   border: 0;
   color: white;
+}
+
+.input[type="text"] {
+  flex: 1;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 90%;
 }
 
 /* || main layout */
@@ -120,7 +130,8 @@ article {
 aside {
   flex: 1;
   margin-left: 10px;
-  background-color: #B3E5FC;
+  background-color: lightgray;
+  border-radius: 25px;
 }
 
 aside li {
@@ -155,9 +166,16 @@ footer {
 
 }
 
-.bottom {
+.bottomR {
   border-radius: 25px;
-  width: 98%;
+  width: 46%;
+  float: right;
+}
+
+.bottomL {
+  border-radius: 25px;
+  width: 46%;
+  float: left;
 }
 
 /* Clear floats after the columns */
@@ -165,5 +183,16 @@ footer {
   content: "";
   display: table;
   clear: both;
+}
+
+.formRight {
+  float: left;
+  width: 45%;
+}
+
+select{
+  width: 100%;
+  height: 50px;
+  float: left;
 }
 
