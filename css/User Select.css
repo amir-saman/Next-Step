@@ -5,7 +5,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: navajowhite;
+  background-color: lightgray;
 }
 
 body {
@@ -16,12 +16,12 @@ body {
 /* || typography */
 
 h2{
-  font-family: 'Sonsie One', cursive;
+  font-family: 'Copperplate', fantasy;
   color: #2a2a2a;
 }
 
 p{
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Copperplate', fantasy;
   color: #BDBDBD;
 }
 
@@ -45,7 +45,7 @@ p{
 /* || header layout */
 
 article {
-  background-color: #B3E5FC;
+  background-color: lightgray;
   padding: 1%;
 }
 
