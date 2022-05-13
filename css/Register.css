@@ -1,6 +1,7 @@
 form {
-  border: 3px solid navajowhite;
-  background-color: navajowhite;
+  border: 3px solid darkgray;
+  background-color: lightgray;
+  border-radius: 25px;
 }
 
 
@@ -15,7 +16,7 @@ input[type=text], input[type=password] {
 
 
 button {
-  background-color: #B3E5FC;
+  background-color: lightgray;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -25,7 +26,7 @@ button {
 }
 
 buttonR {
-  background-color: #B3E5FC;
+  background-color: lightgray;
   color: white;
   padding: 14px 578.3px;
   margin: 8px 0;

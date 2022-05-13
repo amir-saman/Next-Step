@@ -5,7 +5,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: navajowhite;
+  background-color: darkgrey;
 }
 
 body {
@@ -16,19 +16,19 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Sonsie One', cursive;
+  font-family: 'Copperplate', fantasy;
   color: #2a2a2a;
 }
 
 p, input, li {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #BDBDBD;
+  font-family: 'Copperplate', fantasy;
+  color: gray;
 }
 
 h1 {
   font-size: 4rem;
   text-align: center;
-  color: white;
+  color: gray;
   text-shadow: 2px 2px 10px black;
 }
 
@@ -49,13 +49,14 @@ p, li {
 /* || header layout */
 
 nav, article, aside, footer {
-  background-color: #B3E5FC;
+  background-color: lightgray;
   padding: 1%;
+  border-radius: 25px;
 }
 
 nav {
   height: 50px;
-  background-color: #B3E5FC;
+  background-color: lightgray;
   display: flex;
   margin-bottom: 10px;
 }
@@ -120,7 +121,7 @@ article {
 aside {
   flex: 1;
   margin-left: 10px;
-  background-color: #B3E5FC;
+  background-color: lightgray;
 }
 
 aside li {

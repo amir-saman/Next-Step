@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="css/Register.css">
 </head>
-<body>
+<body style="background-image: url(background.jpg)">
 
 <form action="/action_page.php">
   <div class="imgcontainer">
@@ -18,19 +18,19 @@
   <input type="text" id="regUsername" name="uname" placeholder="Enter New Username"><br>
   <Label for="psw">Password:</Label><br>
   <input type="text" id="regPass"  name="psw" placeholder="Enter New Password"><br>
-  
+
   <button type="button" id="regButton">Register</button>
-  
+
   <form action="/Login.html">
     <buttonR type="submit" id="LoginButton" value="Login">login</buttonR>
     <script type="text/javascript">
      document.getElementById("LoginButton").onclick = function() {
       location.href = "Login.html";
-    }  
+    }
     </script>
-    
+
   </form>
-  
+
 </form>
 
 </body>
