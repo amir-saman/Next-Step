@@ -17,12 +17,20 @@ body {
 
 h1, h2, h3 {
   font-family: 'Copperplate', fantasy;
+<<<<<<< HEAD
   font-size: 10px;
   color: #2a2a2a;
 }
 
 p,li {
   font-family: 'Copperplate', fantasy;
+=======
+  color: #2a2a2a;
+}
+
+p, input, li {
+  font-family: 'Copperplate' , fantasy;
+>>>>>>> 97c8f1709addd1dd6a48f35379a663225ec515a8
   color: #BDBDBD;
 }
 
